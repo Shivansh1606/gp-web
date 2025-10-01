@@ -80,9 +80,9 @@ const services = [
 
 // Company Stats
 const stats = [
-  { number: "500+", label: "Projects Completed", icon: FaRocket },
-  { number: "50+", label: "Happy Clients", icon: FaUsers },
-  { number: "8+", label: "Years Experience", icon: FaAward },
+  { number: "20+", label: "Projects Completed", icon: FaRocket },
+  { number: "10+", label: "Happy Clients", icon: FaUsers },
+  { number: "1+", label: "Years Experience", icon: FaAward },
   { number: "98%", label: "Success Rate", icon: FaTrophy }
 ];
 
