@@ -1,13 +1,17 @@
-import Header from "../components/layout/Header";
-import Footer from "../components/layout/Footer";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { 
-  FaExternalLinkAlt, FaGithub, FaCode, FaMobileAlt, 
-  FaGlobe, FaRocket, FaEye, FaStar, FaCheck,
-  FaUsers, FaArrowRight, FaPlay
+import {
+  FaArrowRight,
+  FaEye,
+  FaGithub,
+  FaPlay,
+  FaRocket,
+  FaStar,
+  FaUsers
 } from "react-icons/fa";
 import { HiSparkles } from "react-icons/hi";
+import Footer from "../components/layout/Footer";
+import Header from "../components/layout/Header";
 
 const projects = [
   {
@@ -341,8 +345,8 @@ export default function Projects() {
             <div className="grid md:grid-cols-4 gap-8">
               {[
                 { label: "Projects Completed", value: "50+", icon: FaRocket },
-                { label: "Happy Clients", value: "30+", icon: FaUsers },
-                { label: "Total Users", value: "500K+", icon: FaEye },
+                { label: "Happy Clients", value: "10+", icon: FaUsers },
+                { label: "Total Users", value: "100K+", icon: FaEye },
                 { label: "Success Rate", value: "98%", icon: FaStar }
               ].map((stat, index) => (
                 <motion.div
